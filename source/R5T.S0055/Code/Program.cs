@@ -1,13 +1,15 @@
 using System;
+using System.Threading.Tasks;
 
 
 namespace R5T.S0055
 {
     class Program
     {
-        static void Main()
+        static async Task Main()
         {
-            Console.WriteLine("Hello World!");
+            //await LocalRepositoryScripts.Instance.CreateConsoleRepository();
+            await LocalRepositoryScripts.Instance.CreateWebStaticRazorComponents();
         }
     }
 }
