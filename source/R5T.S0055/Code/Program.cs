@@ -8,8 +8,8 @@ namespace R5T.S0055
     {
         static async Task Main()
         {
-            //await LocalRepositoryScripts.Instance.CreateConsoleRepository();
-            await LocalRepositoryScripts.Instance.CreateWebStaticRazorComponents();
+            await LocalRepositoryScripts.Instance.New_ConsoleRepository();
+            //await LocalRepositoryScripts.Instance.New_WebStaticRazorComponents();
         }
     }
 }
